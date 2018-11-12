@@ -1,0 +1,47 @@
+header.ulp-header {
+    z-index: 99999;
+    width: 100%;
+}
+.pr0 {
+    padding-right: 0!important;
+}
+.pl0 {
+    padding-left: 0!important;
+}
+.social-media {
+    width: 162px;
+    position: relative;
+}
+.social-media span {
+    text-align: left;
+}
+.fab.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    font-size: 35px;
+    -webkit-background-clip: text;
+  }
+  .fab.fa-facebook-f
+  {
+    font-size: 32px;
+  }
+  li
+  {
+    margin: 0;
+    padding: 0;
+    list-style: none
+  }
+  .media
+  {
+      float: right
+  }
+  .main-menu {
+    background: #ffffff;
+    z-index: 1001;
+    position: relative;
+}
+hr{
+    border-top:2px solid #da3a16
+}

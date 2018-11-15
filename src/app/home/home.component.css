@@ -219,7 +219,8 @@ sticky-popup-right .popup-header {
   }
   #owl-demo .item{
     margin: 3px;
-    display: inline-block
+    display: inline-block;
+    margin-top: 98px
   }
   #owl-demo .item img{
     display: block;

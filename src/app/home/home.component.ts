@@ -13,14 +13,23 @@ export class HomeComponent implements OnInit {
 
    ngOnInit(): void {
     $("#owl-demo").owlCarousel({
-      
-           autoPlay: 30, //Set AutoPlay to 3 seconds
-      
-           items : 6,
-           itemsDesktop : [1199,3],
-           itemsDesktopSmall : [979,3]
-      
-       });
+      loop:true,
+      center: true,
+      items: 6,
+      margin: 30,
+      autoplay: true,
+      dots:true,
+      nav:true,
+      autoplayTimeout: 3500,
+      smartSpeed: 600,
+      itemsDesktop : [1199,4],
+      itemsDesktopSmall : [980,3],
+      itemsTablet: [768,2],
+      itemsTabletSmall: false,
+      itemsMobile : [479,1],
+      singleItem : false,
+   
+    });
   }
   title = 'app';
 

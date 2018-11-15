@@ -1,3 +1,12 @@
+@media(max-width:600px)
+{
+    .mytopbar
+    {
+        text-align: center;    
+        margin-top: 8px !important ;
+        margin-left:116px !important;
+    }
+}
 #medicom_header-sticky-wrapper {
     height: auto!important;
 }
@@ -17,7 +26,7 @@
 }
 .mytopbar {
     margin-left: 63%;
-    margin-top: -13px !important;
+    margin-top: -13px ;
     position: absolute;
     font-size: 13px;
     /* margin-bottom: 10px !important; */
@@ -129,6 +138,7 @@ hr{
     visibility: hidden;
     z-index: 999999;
 }
+
 sticky-popup-right .popup-header {
     width: 35px;
     margin-top: 0%;
@@ -166,7 +176,7 @@ sticky-popup-right .popup-header {
     color:#1c1d55 !important;
 } 
 
-.icon-bar {
+.icon-bars {
     position: fixed;
     top: 50%;
     width:52px;
@@ -175,7 +185,7 @@ sticky-popup-right .popup-header {
     transform: translateY(-50%);
   }
    
-   .icon-bar a {
+   .icon-bars a {
     display: block;
     text-align: center;
     padding: 16px;
@@ -184,7 +194,7 @@ sticky-popup-right .popup-header {
     font-size: 20px;
   }
   
-  .icon-bar a:hover {
+  .icon-bars a:hover {
     background-color: #000;
   }
   
@@ -251,8 +261,4 @@ sticky-popup-right .popup-header {
     display: flex;
     justify-content: center;
   }
-  @media (min-width:768px) {
-    .mytopbar {width:75%!important;
-            height:22%!important;
-    }
-}
+ 

@@ -84,8 +84,8 @@ hr{
   } */
   .navbar-left {
     float: left!important;
-    margin-top: 36px;
-    padding-left: 14px;
+    margin-top: 43px !important;
+    padding-left: 54px !important;
     
 }
 #footer {

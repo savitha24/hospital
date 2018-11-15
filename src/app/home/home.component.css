@@ -1,6 +1,7 @@
 .slide
 {
     border-top: 1px solid #1e205b;
+    border-bottom: 1px solid #1e205b;
 }
 @media (max-width:600px) {
 .slide{

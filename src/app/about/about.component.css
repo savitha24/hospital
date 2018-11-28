@@ -1,3 +1,9 @@
+hr{
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid #1e205b;
+}
 .title
 {
     text-align: center;
@@ -70,6 +76,18 @@
       width: 90%;
     }
     
+  }
+  p{
+    margin: 2px 29px 28px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+    
+  }
+  .content
+  {
+    overflow: auto;
+    height:330px
   }
   
   

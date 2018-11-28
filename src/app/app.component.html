@@ -1,11 +1,19 @@
 <div id="medicom_header-sticky-wrapper" class="sticky-wrapper" style="height: 147px;">
   <header id="medicom_header" class="medicom-header header-1">
+      <br>
+      <hr>
+
+      <hr style="
+      border-top: 3px solid #f5821f;
+  ">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
              <!-- Main Menu -->
+            
+             
           <nav class="navbar navbar-default header-1" role="navigation">
-              <div class="navbar-header">
+              <div class="navbar-header col-md-2">
                 <a class="logo_link" href="#">
                   <img src="assets/logo.jpeg" alt="Hyderabad Cancer  Center" class="logo">
                 </a>
@@ -18,20 +26,9 @@
                 </button>
   
               </div>
-              <div class="mytopbar">
-                <i class="fas fa-phone"></i>
-                <span style="font-family: yu gathic light;font-weight: bold"> &nbsp;044123456789</span>
-                &nbsp;
-                <span>
-                  <i class="fab fa-whatsapp"></i>
-                  <span style="font-family: yu gathic light;font-weight: bold">
-                    9874561230
-                  </span>
-                </span>
-  
-              </div>
-  
-              <div class="collapse navbar-collapse navbar-ex1-collapse">
+              
+
+              <div class=" main-navigation collapse navbar-collapse navbar-ex1-collapse col-md-8">
   
                 <ul id="menu-main-menu" class="nav navbar-nav navbar-left">
   
@@ -39,7 +36,7 @@
                     <a class="menu-link" routerLink="/" routerLinkActive="active"class="menu-link">HOME</a>
                   </li>
                   <li id="nav-menu-item-2" class="firstitem menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children multi dropdown">
-                    <a routerLink="/About" routerLinkActive="active"class="menu-link">
+                    <a routerLink="/About" routerLinkActive="active" class="menu-link">
                       ABOUT US
                     </a>
                   </li>
@@ -56,19 +53,21 @@
   
                   </li> -->
                   <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">DEPARTMENTS <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">ONCOLOGY</a></li>
-                        <hr>
-                        <li><a href="#">GYNACOLOGY</a></li>
+                      <a class="menu-link">
+                      DEPARTMENTS                      </a>
+                    <ul class="dropdown-menu">
+                        <li><a routerLink="/dept_onc" routerLinkActive="active">ONCOLOGY</a></li>
+                       
+                        <li><a routerLink="/dept_gync" routerLinkActive="active">GYNAECOLOGY</a></li>
                      
                       </ul>
                     </li>
                     <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">DIAGNOSIS <span class="caret"></span></a>
+                        <a class="menu-link">
+                        DIAGNOSIS </a>
                         <ul class="dropdown-menu">
                           <li><a >X-RAY</a></li>
-                          <hr>
+                       
                           <li><a>CBP</a></li>
                           <!-- <li><a href="#">Page 1-3</a></li> -->
                         </ul>
@@ -77,8 +76,55 @@
                 </ul>
                 
               </div>
-              <!-- /.navbar-collapse -->
+              <div class="mytopbar col-md-2">
+                  <ul>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span style="font-family: yu gathic light;font-weight: bold;    margin-left: 5px;"> &nbsp;044123456789</span>
+                    </li>
+                    
+                    <li style="margin-top: 0px;">
+                        <span style="font-family: yu gathic light;font-weight: bold;margin-top: 6px;    margin-left: -8px;">
+                            <i class="fab fa-whatsapp">
   
+                            </i>
+                         
+                              9874561230
+                           
+                          </span>
+                    </li>
+                    <li>
+                        <a href="http://maps.google.com/?q=Hyderabad Cancer Centre, 10-76, Sowbhagya Nagar, Opposite IDPL colony Bus Stop, Balanagar, Hyderabad, Telangana 500037" target="_blank">
+                          <span>
+                              <i class="fa fa-map-marker" aria-hidden="true" style="    font-size: 173%;
+                           
+                              margin-left: -11px;
+                              margin-top: 6px;"></i>
+                              <span style="font-family: yu gathic light;font-weight: bold;    margin-left: 5px;">
+                                Location
+                              </span>
+                            </span>
+                      </a>
+                    </li>
+                  </ul>
+                  
+                  &nbsp;
+                 
+                  <!-- <div class="locationcls" >
+                      <a href="http://maps.google.com/?q=Hyderabad Cancer Centre, 10-76, Sowbhagya Nagar, Opposite IDPL colony Bus Stop, Balanagar, Hyderabad, Telangana 500037" target="_blank">
+                          <span>
+                              <i class="fa fa-map-marker" aria-hidden="true"></i>
+                              <span style="font-family: yu gathic light;font-weight: bold">
+                                Location
+                              </span>
+                            </span>
+                      </a>
+                        
+                    </div> -->
+    
+                </div>
+              <!-- /.navbar-collapse -->
+            
             </nav>
           
         </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 declare var $;
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ declare var $;
 })
 export class HomeComponent implements OnInit {
 
-  constructor() {
+  constructor(private router?:Router) {
     
    }
 
@@ -28,9 +29,25 @@ export class HomeComponent implements OnInit {
       itemsTabletSmall: false,
       itemsMobile : [479,1],
       singleItem : false,
+      autoplayHoverPause: true,
    
     });
-  }
+    var that=this;
+  $(".item1").click(function(){
+  that.nav("gallery");
+});
+$(".item2").click(function(){
+  that.nav("doctors");
+});
+$(".item5").click(function(){
+  that.nav("events");
+});
+   }
+   nav(url)
+   {
+     this.router.navigate(['/'+url])
+     console.log("click")
+   }
   title = 'app';
 
 }

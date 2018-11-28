@@ -1,3 +1,11 @@
+.dropdown-menu
+{
+    display:none;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: inline-block
+}
 @media(max-width:600px)
 {
     .mytopbar
@@ -25,15 +33,15 @@
     transition: padding 0.4s ease;
 }
 .mytopbar {
-    margin-left: 63%;
-    margin-top: -13px ;
+    margin-left: 80%;
+    margin-top: 17px;
     position: absolute;
     font-size: 13px;
     /* margin-bottom: 10px !important; */
 }
 .fa-whatsapp{
     font-size: 19px;
-    padding-left: 8px;
+    /* padding-left: 8px; */
     color: #25D366;
     margin: 6px;
 }
@@ -68,9 +76,9 @@
     text-align: left;
 }
 hr{
-    margin-bottom: 0px;
+    margin-bottom: 3px;
     border: 0;
-    border-top: 1px solid #1e205b;
+    border-top: 2px solid #1e205b;
     margin-top: 0px;
 }
   /* li
@@ -84,9 +92,34 @@ hr{
   } */
   .navbar-left {
     float: left!important;
-    margin-top: 43px !important;
-    padding-left: 54px !important;
+    margin-top: 43px;
+    padding-left: 104px;
     
+}
+ul{
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.locationcls
+{
+    float: right;
+    margin-top: -64px;
+    margin-right: -96px;
+    margin-left: 116px;
+    /* border: 3px solid; */
+    /* border-radius: 8px; */
+    width: 16%;
+    /* height: 112%; */
+}
+fa-map-marker
+{
+    /* font-size: 10px; */
+    font-size: 162%;
 }
 #footer {
     position:absolute;
@@ -167,6 +200,13 @@ sticky-popup-right .popup-header {
     font-size: 38px;
     color: #f5821f;
 }
+/* .fa-map-marker
+{
+    font-size: 162%;
+    font-family: yu gathic light;
+    font-weight: bold;
+    padding: 13px;
+} */
 .fa-user-md
 {
     font-size: 38px;
@@ -261,4 +301,25 @@ sticky-popup-right .popup-header {
     display: flex;
     justify-content: center;
   }
- 
+  .main-navigation ul li a {
+    border-right:1px solid #1e205b;
+    height: auto;
+}
+.main-navigation ul li.last a {
+    border-bottom:none;
+}
+  /* .main-navigation ul li {
+    border-right: 1px solid #000;
+    line-height: 1px;
+    display: inline-block
+   
+    }
+    
+    .main-navigation ul li:last-of-type {
+    border-right: none;
+    
+    }
+    
+    .main-navigation ul ul li {
+    border-right: none;
+    } */
